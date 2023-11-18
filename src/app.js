@@ -5,9 +5,16 @@ import "./style.css";
 window.onload = function() {
   //write your code here
 
+  //document.querySelector(".bckg").style.color = "green";
   document.querySelector(".number").innerHTML = choices();
   document.querySelector(".top").innerHTML = sameSymbol;
   document.querySelector(".bottom").innerHTML = sameSymbol;
+
+  //let color = sameSymbol.style.color;
+  if (sameSymbol === "♦" || sameSymbol === "♥") {
+    //sameSymbol.style.color = "red";
+    document.querySelector(".card").style.color = "red";
+  }
 };
 
 function choices() {
@@ -39,3 +46,7 @@ function symbol() {
 }
 
 let sameSymbol = symbol();
+
+function changeFontColor() {
+  return sameSymbol;
+}

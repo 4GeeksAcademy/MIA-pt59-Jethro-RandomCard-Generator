@@ -1,6 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-.body {
+body {
   background-color: yellow;
 }
 
@@ -11,13 +11,13 @@ h1 {
 }
 
 .card {
-  width: 500px;
-  height: 400px;
+  width: 200px;
+  height: 300px;
   border-color: black;
   border-radius: 2px;
   border-style: solid;
   /* margin-right: 60%;*/
-  margin-left: 30%;
+  margin-left: 40%;
 
   margin-top: 10%;
   align-content: center;
